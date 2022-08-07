@@ -1,0 +1,25 @@
+/* FOOTER */
+footer {
+    text-decoration: solid;
+    background-color:rgb(27, 79, 114) ;
+    display: flex;
+    padding: 15px;
+    justify-content:space-around;
+}
+
+/* Aplicando Maps al Footer */
+$redes: (
+    icono: white
+    
+);
+
+.footer-links {
+    color:map-get($redes, icono);
+    font-size: 2rem;
+    display:inline-block;
+    text-align: center;
+    width: 90%;
+}
+i{
+    margin-left: 9%;
+}

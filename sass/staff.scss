@@ -1,0 +1,26 @@
+/* STAFF */
+body {
+    background-color: whitesmoke;
+}
+
+
+#card-staff{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    padding: 15px;
+    justify-content:center;
+    background-color: rgb(229, 231, 233);
+    padding-top: 2%;
+    padding-bottom: 2%;
+  
+}
+
+#button-staft{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.card-text{
+    text-align: justify;
+}
